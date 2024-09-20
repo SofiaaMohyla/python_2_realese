@@ -1,0 +1,90 @@
+QWidget {
+    background: #222222;
+    background-image: url("photo/game_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+QLabel {
+    color: #FFFFFF;
+    font-size: 35px;
+    background:rgba(0, 0, 0, 0);
+}
+
+QPushButton {
+    width: 440px;
+    height: 250px;
+    background:rgba(0, 0, 0, 0);
+}
+
+QSplitter {
+background: rgba(0, 0, 0, 0);
+}
+
+QMenuBar {
+    background:rgba(0, 0, 0, 0);
+    width: 206;
+    height: 50;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+QMenuBar::item {
+    color : white;
+    margin-top:4px;
+    spacing: 3px;
+    background: #191919;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+QMenuBar::item:selected {
+    background-image: false;
+    border-radius: 15px;
+    background: #202020;
+    font-size: 24px;
+}
+
+QMenuBar::item:pressed {
+    background-image: false;
+    background: #202020;
+    font-size: 24px;
+}
+QMenu {
+    border-radius: 15px;
+    background: #202020;
+    color: #898989;
+    font-size: 24px;
+    padding: 10px;
+}
+
+QMenu::item {
+    border-radius: 10px;
+    padding: 2px 20px 10px 20px;
+}
+
+QMenu::item:selected {
+    color: #FFFFFF;
+    background: #191919;
+}
+QProgressBar {
+    background:rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 220px;
+    border-radius: 15px;
+}
+QProgressBar {
+        width: 200px;
+        height: 20px;
+        border: 2px solid rgba(33, 37, 55, 180);
+        border-radius: 20px;
+        text-align: center;
+        background-color: rgba(33, 37, 55, 180);
+        color: white;
+        font-size: 24px;
+        font: bold;
+
+    }
+QProgressBar::chunk {
+    background-color: #fcc434;
+    boder-radius: 20px;
+}
